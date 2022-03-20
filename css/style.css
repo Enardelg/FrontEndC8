@@ -1,0 +1,102 @@
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.bordeNegro {
+    height: 20px;
+    background-color: black;
+    color: #F3F3F3;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+.parteNaranja {
+    height: 62px;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+}
+.Info {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.fondoPrincipal {
+    height: 409px;
+    text-align: center;
+    background-image: url(../images/fondoPlato.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: #3C2313;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+.pata {
+    text-align: center;
+}
+.expresion {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #3C2313;
+    text-align: center;
+}
+.principal {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: #3C2313;
+    text-align: center;
+}
+.categorias {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #666666;
+    text-align: center;
+}
+.precios { 
+    color:#F0A83E;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700
+}
+.productos {
+    color: #3C2313;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}
+.marronOscuro, .datos {
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+.dato1 {
+    color: #8A8787;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+}
+.parteNegra, .fn {
+    background-color: #222222;
+    weigth: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    font-style: normal;
+    text-align: center;
+}
+    
