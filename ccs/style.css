@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.0/css/all.css');
+
+body { 
+    font-family: 'Poppins', sans-serif;
+  }
+span {
+      font-weight: 700;
+      font-style: italic;
+  }
+
+.cabecera {
+    background-attachment: fixed, scroll;
+    background-image: url("../images/FotoPerifl.png"), url("../images/fondoCvBatman.jpg");
+    background-position: top, bottom center;
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    height: 190px;
+    width: 100%;
+  }
+.titulo, .subtitulo {
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.titulo{
+    font-size: 35px;
+    text-align: center;
+  }
+  .subtitulo{
+    font-size: 20px;
+    text-align: left;
+  }
+  .espacio {
+     height: 133px;
+    }
+    .pie{
+        background-color: #005677;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        height: 37px;
+        text-align: center;
+        width: 100%;
+      }
+      /* aplicamos un selector de descendencia */
+      .pie a{
+        color: inherit;
+        text-decoration: none;
+      }
