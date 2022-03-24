@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header p{
+    background-color: #1CD1B0;
+
+    margin: 0;
+    color: #000;
+    padding: 10px;
+    font-weight: bold;
+}
+.tituloP h1{
+    background-color: #00669F;
+    margin-top: 0;
+    padding: 28px;
+    font-size: 40px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+main{
+    display: flex;
+
+    align-items: center;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 60px;
+    position: relative;
+}
+.imgatras .corazon {
+    background-image: url('../images/me\ gusta.png');
+    width: 30px;
+    height: 27px;
+    position: absolute;
+    margin: 16px 21px ;
+}
+.articulos{
+    margin-right: 15%;
+    margin-bottom: 200px;
+}
+.imgatras {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.informacion {
+    width: 300px;
+    background-color: #F3F3F3;
+    padding-top: 20px;
+    box-shadow: 0px 5px 10px #a1a1a1;
+} 
+.informacion img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50vh;
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+    bottom: 100px;
+}
+.informacion .fotoperfil {
+    position: relative;
+    bottom: 90px;
+}
+.informacion h2{
+    text-align: center;
+}
+.informacion p{
+    padding: 10px 16px;
+}
+.informacion a{
+    display: block;
+    background-color: #00669F;
+    color: #FFFFFF;
+    padding: 15px 37px;
+    text-align: center;
+    width: 130px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.informacion a:hover{
+    background-color: #444647;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.corazon {
+    background-image: url('./images/me gusta.png');
+    width: 30px;
+    height: 27px;
+    position: absolute;
+    margin: 16px 21px ;
+} 
+footer{
+    background-color: #00669F;
+}
+footer p{
+    padding: 10px 0;
+    margin-bottom: 0;
+    padding-left: 16px;
+    color: #FFFFFF;
+}
